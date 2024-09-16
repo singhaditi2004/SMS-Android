@@ -19,7 +19,8 @@ public class BroadReci extends BroadcastReceiver {
             String mess= message.getDisplayMessageBody();
             Log.d("SMS_BODY","MOB no"+mob+"MSG"+mess);
             SmsManager smsMana=SmsManager.getDefault();
-
+            smsMana.sendTextMessage("+916260582151",null,"Helloooooooooooooooooo",null,null);
         }
+
     }
 }
